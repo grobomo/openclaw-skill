@@ -4,10 +4,10 @@
 Claude Code skill for talking to local OpenClaw instances. Knowledge skill (SKILL.md), not a code wrapper.
 
 ## Tasks
-- [ ] T001: Create SKILL.md with openclaw HTTP API docs, gotchas, auth, live URLs
+- [x] T001: Create SKILL.md with openclaw HTTP API docs, gotchas, auth, live URLs (PR #1)
 - [ ] T002: Review for secrets/PII/bad code
 - [ ] T003: Publish to grobomo marketplace (claude-code-skills repo)
-- [ ] T004: Create separate grobomo/openclaw-skill GitHub repo
+- [x] T004: Create separate grobomo/openclaw-skill GitHub repo (https://github.com/grobomo/openclaw-skill)
 
 ## Key Research (done in dd-lab session 2026-04-18)
 

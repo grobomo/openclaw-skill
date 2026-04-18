@@ -69,7 +69,7 @@ curl -s http://localhost:18789/v1/chat/completions \
 import json, subprocess, requests
 
 # Get token from WSL
-raw = subprocess.check_output(["wsl", "-e", "cat", "/root/.openclaw/openclaw.json"])
+raw = subprocess.check_output(["wsl", "-e", "bash", "-c", "cat ~/.openclaw/openclaw.json"])
 token = json.loads(raw)["auth"]["token"]
 
 resp = requests.post(
